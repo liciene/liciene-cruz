@@ -1,38 +1,97 @@
+@import url('./assets/fonts/fonts.css');
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  min-height: 88vh;
+  background: #141517;
+  background-image: url("./assets/Background.png");
+  color: #BAB9C9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  padding: 1%;
+  margin: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Photo {
+  width: 300px;
+  height: 533px;
+  z-index: 1;
+  border-top-left-radius: 3em 3em;
+  border-top-right-radius: 0.3em 0.3em;
+  border-bottom-right-radius: 3em 3em;
+  border-bottom-left-radius: 3em 3em;
+  border-right: 0.5rem solid #000000;
+  border-top: 0.3rem solid #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#profilephoto {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 3em 3em;
+  border-top-right-radius: 0.3em 0.3em;
+  border-bottom-right-radius: 3em 3em;
+  border-bottom-left-radius: 3em 3em;
+  border-bottom: 0.3rem solid #62636b;
+  border-left: 0.3rem solid #62636b;
+}
+
+.ProfileDescription {
+  width: calc(100% - 300px);
+  height: 400px;
+  display: flex;
+  background-color: #181a1c;
+  box-shadow: 0.01em -0.25em 0.5em 0.005em rgb(0, 0, 0);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom: 0.01rem solid #62636b;
+}
+
+.Presentation {
+  padding: 10px 20px;
+  justify-content: center;
+  width: 70%;
+  border-radius: 5px;
+  text-align: start;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-family: Roboto, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-family: Roboto, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  line-height: 1.35;
+  text-align: justify;
+}
+
+.Profiles {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 0px;
+  width: 30%;
+  height: 80%;
+  margin: 5px;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
 }

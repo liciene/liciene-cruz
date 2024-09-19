@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'FiraCode';
+    src: local('FiraCode'), 
+    url('./firacode.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url('./roboto.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
