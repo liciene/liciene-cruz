@@ -9,7 +9,7 @@ function MyHeader() {
     return (
         <div className='MyHeader'>
             <button>
-                <Link to="/" className='MyLogo'>
+                <Link to="/liciene-cruz" className='MyLogo'>
                     Liciene Cruz
                 </Link>
             </button>
