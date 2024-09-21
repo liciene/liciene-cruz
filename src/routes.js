@@ -11,7 +11,7 @@ import Store from './pages/store.jsx';
 function MyRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<App/>}/>;
+            <Route path="" element={<App/>}/>;
             <Route path="/arte" element={<ArtPage/>}/>;
             <Route path="/design" element={<DesignPage/>}/>;
             <Route path="/programacao" element={<DevPage/>}/>;
