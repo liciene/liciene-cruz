@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/liciene-cruz/static/css/main.761953c9.css",
-    "main.js": "/liciene-cruz/static/js/main.2e23484f.js",
+    "main.js": "/liciene-cruz/static/js/main.6d65573c.js",
     "static/media/Perfil.jpg": "/liciene-cruz/static/media/Perfil.edb673d1691f0b9a12b4.jpg",
     "static/media/Background.png": "/liciene-cruz/static/media/Background.fddedf1868ab148a5a4d.png",
     "static/media/firacode.ttf": "/liciene-cruz/static/media/firacode.ea32261131becc79ea84.ttf",
@@ -12,10 +12,10 @@
     "static/media/Art-Button.png": "/liciene-cruz/static/media/Art-Button.bd91923093a4527f5068.png",
     "index.html": "/liciene-cruz/index.html",
     "main.761953c9.css.map": "/liciene-cruz/static/css/main.761953c9.css.map",
-    "main.2e23484f.js.map": "/liciene-cruz/static/js/main.2e23484f.js.map"
+    "main.6d65573c.js.map": "/liciene-cruz/static/js/main.6d65573c.js.map"
   },
   "entrypoints": [
     "static/css/main.761953c9.css",
-    "static/js/main.2e23484f.js"
+    "static/js/main.6d65573c.js"
   ]
 }
